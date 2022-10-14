@@ -1,0 +1,3 @@
+/Users/bradyang/Desktop/cmake_tutorials/module1/build/CMakeFiles/calculatorApp.dir
+/Users/bradyang/Desktop/cmake_tutorials/module1/build/CMakeFiles/edit_cache.dir
+/Users/bradyang/Desktop/cmake_tutorials/module1/build/CMakeFiles/rebuild_cache.dir
