@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.7)
+
+# 
+message("make sure there are no unscriptable commands.")
+message("here is a message")
+
+# defining variables
+set(MYNAME Brad) # string
+set(HEIGHT 6) # string
+set(FULLNAME "Brad Yang") # string
+set(PETLIST Sherl Mori Bob) # list. equivalent to set(PETLIST Sherl;Mori;Bob)
+message("Hi there, my name is ${MYNAME}, full name ${FULLNAME}, and I am ${HEIGHT} feet tall.")
+message("I have pets ${PETLIST}")

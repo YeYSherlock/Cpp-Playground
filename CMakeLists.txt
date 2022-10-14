@@ -18,6 +18,10 @@ project(LiquidGrowth VERSION 1.0.0
 add_executable(calculatorApp main.cpp)
 
 
+# message("here is a message")
+
+
+
 
 # FIND_PACKAGE(Boost REQUIRED)
 # FIND_PACKAGE(Boost COMPONENTS filesystem REQUIRED)

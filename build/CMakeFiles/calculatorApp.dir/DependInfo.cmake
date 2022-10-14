@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/bradyang/Desktop/cmake_tutorials/module1/main.cpp" "CMakeFiles/calculatorApp.dir/main.cpp.o" "gcc" "CMakeFiles/calculatorApp.dir/main.cpp.o.d"
+  "/Users/bradyang/Desktop/cmake_tutorials/Cpp-Playground/main.cpp" "CMakeFiles/calculatorApp.dir/main.cpp.o" "gcc" "CMakeFiles/calculatorApp.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
