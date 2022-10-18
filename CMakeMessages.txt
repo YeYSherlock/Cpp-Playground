@@ -12,3 +12,42 @@ set(PETLIST Sherl Mori Bob) # list. equivalent to set(PETLIST Sherl;Mori;Bob)
 message("Hi there, my name is ${MYNAME}, full name ${FULLNAME}, and I am ${HEIGHT} feet tall.")
 message("I have pets ${PETLIST}")
 
+
+# note: don't need to dereference MYNAME with ${MYNAME} here because it is automatically done
+if(DEFINED MYNAME) # check if a variable is set (or initialized) or not
+    message("${MYNAME} is a variable!!")
+else()
+    message("${MYNAME} is not a variable!")
+endif()
+
+if(COMMAND target_link_libraries) # check if a command exists of not
+    message("target_link_directories is a command/function!")
+else()
+    message("target_link_directories is not a command/function!")
+endif()
+
+if(EXISTS LICENSE)
+    message("LICENSE exists")
+else()
+    message("LICENSE doesn't exists")
+endif()
+# check if a file or directory exists of not
+
+set(TEST_HEIGHT 6.6)
+if (HEIGHT STRLESS TEST_HEIGHT)
+    message("you are short bro")
+elseif(HEIGHT STRGREATER TEST_HEIGHT)
+    message("you are tall bro")
+else()
+    message("wut")
+endif()
+
+
+function(PRINT STRING_)
+    message(${STRING_})
+endfunction()
+
+PRINT(${TEST_HEIGHT})
+
+# if you overwrite a function, you can call the original function by adding a underscore before. 
+# Only works for one overwrite though. 
